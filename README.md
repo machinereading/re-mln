@@ -2,7 +2,7 @@
 
 ## About
 
-Markov Logic Newtwork(MLN)-based Relation Extraction Model. This is re-implementation of ["Han and Sun. Global distant supervision for relation extraction. AAAI. 2016"](https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/viewPaper/12006) for Korean Dataset.
+Markov Logic Newtwork(MLN)-based Relation Extraction Model. This is the re-implementation of ["Han and Sun. Global distant supervision for relation extraction. AAAI. 2016"](https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/viewPaper/12006) for Korean Dataset.
 
 ## Prerequisite
 - Python 3.5+
