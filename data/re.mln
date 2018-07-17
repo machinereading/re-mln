@@ -1,0 +1,14 @@
+Label(Instance,Relation!)
+HasRel(Pair,Relation)
+Mention(Instance,Pair)
+HasFea(Instance,Feature)
+Arg1HasFea(Instance,ArgFea)
+Arg2HasFea(Instance,ArgFea)
+Similar(Instance,Instance)
+
+HasFea(m,+f) => Label(m,+r)
+Arg1HasFea(m,+af) ^ Label(m,+r)
+Arg2HasFea(m,+af) ^ Label(m,+r)
+Label(m,r) ^ Mention(m,p) => HasRel(p,r).
+HasRel(p,+r1) ^ HasRel(p,+r2)
+Similar(m1,m2) ^ Label(m1,r) => Label(m2,r)

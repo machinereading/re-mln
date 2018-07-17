@@ -1,0 +1,1008 @@
+//predicate declarations
+HasRel(Pair,Relation)
+Arg2HasFea(Instance,ArgFea)
+Arg1HasFea(Instance,ArgFea)
+Mention(Instance,Pair)
+HasFea(Instance,Feature)
+Similar(Instance,Instance)
+Label(Instance,Relation!)
+
+// 0.781132  HasFea(m,F22) => Label(m,R_occupation)
+0.781132  Label(a1,R_occupation) v !HasFea(a1,F22)
+
+// -0.162868  HasFea(m,F22) => Label(m,R_country)
+-0.162868  Label(a1,R_country) v !HasFea(a1,F22)
+
+// -0.368705  HasFea(m,F22) => Label(m,R_starring)
+-0.368705  Label(a1,R_starring) v !HasFea(a1,F22)
+
+// -0.340034  HasFea(m,F22) => Label(m,R_channel)
+-0.340034  Label(a1,R_channel) v !HasFea(a1,F22)
+
+// -0.827705  HasFea(m,F2) => Label(m,R_occupation)
+-0.827705  Label(a1,R_occupation) v !HasFea(a1,F2)
+
+// 0.348536  HasFea(m,F2) => Label(m,R_country)
+0.348536  Label(a1,R_country) v !HasFea(a1,F2)
+
+// -0.485155  HasFea(m,F2) => Label(m,R_starring)
+-0.485155  Label(a1,R_starring) v !HasFea(a1,F2)
+
+// 0.711244  HasFea(m,F2) => Label(m,R_channel)
+0.711244  Label(a1,R_channel) v !HasFea(a1,F2)
+
+// -0.0356196  HasFea(m,F17) => Label(m,R_occupation)
+-0.0356196  Label(a1,R_occupation) v !HasFea(a1,F17)
+
+// -0.402585  HasFea(m,F17) => Label(m,R_country)
+-0.402585  Label(a1,R_country) v !HasFea(a1,F17)
+
+// 0.163761  HasFea(m,F17) => Label(m,R_starring)
+0.163761  Label(a1,R_starring) v !HasFea(a1,F17)
+
+// 0.0691718  HasFea(m,F17) => Label(m,R_channel)
+0.0691718  Label(a1,R_channel) v !HasFea(a1,F17)
+
+// -0.227634  HasFea(m,F21) => Label(m,R_occupation)
+-0.227634  Label(a1,R_occupation) v !HasFea(a1,F21)
+
+// 0.513231  HasFea(m,F21) => Label(m,R_country)
+0.513231  Label(a1,R_country) v !HasFea(a1,F21)
+
+// -0.200074  HasFea(m,F21) => Label(m,R_starring)
+-0.200074  Label(a1,R_starring) v !HasFea(a1,F21)
+
+// -0.112682  HasFea(m,F21) => Label(m,R_channel)
+-0.112682  Label(a1,R_channel) v !HasFea(a1,F21)
+
+// -0.293765  HasFea(m,F6) => Label(m,R_occupation)
+-0.293765  Label(a1,R_occupation) v !HasFea(a1,F6)
+
+// 0.586291  HasFea(m,F6) => Label(m,R_country)
+0.586291  Label(a1,R_country) v !HasFea(a1,F6)
+
+// -0.348318  HasFea(m,F6) => Label(m,R_starring)
+-0.348318  Label(a1,R_starring) v !HasFea(a1,F6)
+
+// -0.0138888  HasFea(m,F6) => Label(m,R_channel)
+-0.0138888  Label(a1,R_channel) v !HasFea(a1,F6)
+
+// -0.420901  HasFea(m,F16) => Label(m,R_occupation)
+-0.420901  Label(a1,R_occupation) v !HasFea(a1,F16)
+
+// 1.00331  HasFea(m,F16) => Label(m,R_country)
+1.00331  Label(a1,R_country) v !HasFea(a1,F16)
+
+// -0.388483  HasFea(m,F16) => Label(m,R_starring)
+-0.388483  Label(a1,R_starring) v !HasFea(a1,F16)
+
+// -0.275551  HasFea(m,F16) => Label(m,R_channel)
+-0.275551  Label(a1,R_channel) v !HasFea(a1,F16)
+
+// -0.0783651  HasFea(m,F14) => Label(m,R_occupation)
+-0.0783651  Label(a1,R_occupation) v !HasFea(a1,F14)
+
+// 0.0648087  HasFea(m,F14) => Label(m,R_country)
+0.0648087  Label(a1,R_country) v !HasFea(a1,F14)
+
+// -0.13685  HasFea(m,F14) => Label(m,R_starring)
+-0.13685  Label(a1,R_starring) v !HasFea(a1,F14)
+
+// 0.13246  HasFea(m,F14) => Label(m,R_channel)
+0.13246  Label(a1,R_channel) v !HasFea(a1,F14)
+
+// -0.108803  HasFea(m,F23) => Label(m,R_occupation)
+-0.108803  Label(a1,R_occupation) v !HasFea(a1,F23)
+
+// -0.132946  HasFea(m,F23) => Label(m,R_country)
+-0.132946  Label(a1,R_country) v !HasFea(a1,F23)
+
+// -0.128999  HasFea(m,F23) => Label(m,R_starring)
+-0.128999  Label(a1,R_starring) v !HasFea(a1,F23)
+
+// 0.362859  HasFea(m,F23) => Label(m,R_channel)
+0.362859  Label(a1,R_channel) v !HasFea(a1,F23)
+
+// -0.37206  HasFea(m,F18) => Label(m,R_occupation)
+-0.37206  Label(a1,R_occupation) v !HasFea(a1,F18)
+
+// 0.2931  HasFea(m,F18) => Label(m,R_country)
+0.2931  Label(a1,R_country) v !HasFea(a1,F18)
+
+// -0.623148  HasFea(m,F18) => Label(m,R_starring)
+-0.623148  Label(a1,R_starring) v !HasFea(a1,F18)
+
+// 0.346389  HasFea(m,F18) => Label(m,R_channel)
+0.346389  Label(a1,R_channel) v !HasFea(a1,F18)
+
+// -0.557443  HasFea(m,F13) => Label(m,R_occupation)
+-0.557443  Label(a1,R_occupation) v !HasFea(a1,F13)
+
+// 0.427313  HasFea(m,F13) => Label(m,R_country)
+0.427313  Label(a1,R_country) v !HasFea(a1,F13)
+
+// -0.549967  HasFea(m,F13) => Label(m,R_starring)
+-0.549967  Label(a1,R_starring) v !HasFea(a1,F13)
+
+// 0.283871  HasFea(m,F13) => Label(m,R_channel)
+0.283871  Label(a1,R_channel) v !HasFea(a1,F13)
+
+// 0.432215  HasFea(m,F24) => Label(m,R_occupation)
+0.432215  Label(a1,R_occupation) v !HasFea(a1,F24)
+
+// -0.0101025  HasFea(m,F24) => Label(m,R_country)
+-0.0101025  Label(a1,R_country) v !HasFea(a1,F24)
+
+// 0.0596889  HasFea(m,F24) => Label(m,R_starring)
+0.0596889  Label(a1,R_starring) v !HasFea(a1,F24)
+
+// -0.554741  HasFea(m,F24) => Label(m,R_channel)
+-0.554741  Label(a1,R_channel) v !HasFea(a1,F24)
+
+// -0.360622  HasFea(m,F15) => Label(m,R_occupation)
+-0.360622  Label(a1,R_occupation) v !HasFea(a1,F15)
+
+// -0.118931  HasFea(m,F15) => Label(m,R_country)
+-0.118931  Label(a1,R_country) v !HasFea(a1,F15)
+
+// -0.101768  HasFea(m,F15) => Label(m,R_starring)
+-0.101768  Label(a1,R_starring) v !HasFea(a1,F15)
+
+// 0.516847  HasFea(m,F15) => Label(m,R_channel)
+0.516847  Label(a1,R_channel) v !HasFea(a1,F15)
+
+// -0.273304  HasFea(m,F5) => Label(m,R_occupation)
+-0.273304  Label(a1,R_occupation) v !HasFea(a1,F5)
+
+// 0.183969  HasFea(m,F5) => Label(m,R_country)
+0.183969  Label(a1,R_country) v !HasFea(a1,F5)
+
+// -0.309348  HasFea(m,F5) => Label(m,R_starring)
+-0.309348  Label(a1,R_starring) v !HasFea(a1,F5)
+
+// 0.365922  HasFea(m,F5) => Label(m,R_channel)
+0.365922  Label(a1,R_channel) v !HasFea(a1,F5)
+
+// -0.256244  HasFea(m,F8) => Label(m,R_occupation)
+-0.256244  Label(a1,R_occupation) v !HasFea(a1,F8)
+
+// 0.71006  HasFea(m,F8) => Label(m,R_country)
+0.71006  Label(a1,R_country) v !HasFea(a1,F8)
+
+// -0.179581  HasFea(m,F8) => Label(m,R_starring)
+-0.179581  Label(a1,R_starring) v !HasFea(a1,F8)
+
+// -0.290124  HasFea(m,F8) => Label(m,R_channel)
+-0.290124  Label(a1,R_channel) v !HasFea(a1,F8)
+
+// 0.207184  HasFea(m,F9) => Label(m,R_occupation)
+0.207184  Label(a1,R_occupation) v !HasFea(a1,F9)
+
+// -0.466321  HasFea(m,F9) => Label(m,R_country)
+-0.466321  Label(a1,R_country) v !HasFea(a1,F9)
+
+// -0.100651  HasFea(m,F9) => Label(m,R_starring)
+-0.100651  Label(a1,R_starring) v !HasFea(a1,F9)
+
+// 0.356957  HasFea(m,F9) => Label(m,R_channel)
+0.356957  Label(a1,R_channel) v !HasFea(a1,F9)
+
+// -0.764475  HasFea(m,F20) => Label(m,R_occupation)
+-0.764475  Label(a1,R_occupation) v !HasFea(a1,F20)
+
+// -0.374465  HasFea(m,F20) => Label(m,R_country)
+-0.374465  Label(a1,R_country) v !HasFea(a1,F20)
+
+// 0.184239  HasFea(m,F20) => Label(m,R_starring)
+0.184239  Label(a1,R_starring) v !HasFea(a1,F20)
+
+// 0.653765  HasFea(m,F20) => Label(m,R_channel)
+0.653765  Label(a1,R_channel) v !HasFea(a1,F20)
+
+// -0.102604  HasFea(m,F19) => Label(m,R_occupation)
+-0.102604  Label(a1,R_occupation) v !HasFea(a1,F19)
+
+// 0.231428  HasFea(m,F19) => Label(m,R_country)
+0.231428  Label(a1,R_country) v !HasFea(a1,F19)
+
+// -0.0487355  HasFea(m,F19) => Label(m,R_starring)
+-0.0487355  Label(a1,R_starring) v !HasFea(a1,F19)
+
+// -0.0812222  HasFea(m,F19) => Label(m,R_channel)
+-0.0812222  Label(a1,R_channel) v !HasFea(a1,F19)
+
+// -0.204435  HasFea(m,F11) => Label(m,R_occupation)
+-0.204435  Label(a1,R_occupation) v !HasFea(a1,F11)
+
+// 0.651977  HasFea(m,F11) => Label(m,R_country)
+0.651977  Label(a1,R_country) v !HasFea(a1,F11)
+
+// -0.17061  HasFea(m,F11) => Label(m,R_starring)
+-0.17061  Label(a1,R_starring) v !HasFea(a1,F11)
+
+// -0.287758  HasFea(m,F11) => Label(m,R_channel)
+-0.287758  Label(a1,R_channel) v !HasFea(a1,F11)
+
+// -0.0752535  HasFea(m,F12) => Label(m,R_occupation)
+-0.0752535  Label(a1,R_occupation) v !HasFea(a1,F12)
+
+// 0.147039  HasFea(m,F12) => Label(m,R_country)
+0.147039  Label(a1,R_country) v !HasFea(a1,F12)
+
+// -0.142519  HasFea(m,F12) => Label(m,R_starring)
+-0.142519  Label(a1,R_starring) v !HasFea(a1,F12)
+
+// 0.0445681  HasFea(m,F12) => Label(m,R_channel)
+0.0445681  Label(a1,R_channel) v !HasFea(a1,F12)
+
+// 0.37395  HasFea(m,F3) => Label(m,R_occupation)
+0.37395  Label(a1,R_occupation) v !HasFea(a1,F3)
+
+// 0.363451  HasFea(m,F3) => Label(m,R_country)
+0.363451  Label(a1,R_country) v !HasFea(a1,F3)
+
+// -0.290617  HasFea(m,F3) => Label(m,R_starring)
+-0.290617  Label(a1,R_starring) v !HasFea(a1,F3)
+
+// -0.442973  HasFea(m,F3) => Label(m,R_channel)
+-0.442973  Label(a1,R_channel) v !HasFea(a1,F3)
+
+// -0.438939  HasFea(m,F26) => Label(m,R_occupation)
+-0.438939  Label(a1,R_occupation) v !HasFea(a1,F26)
+
+// -0.421086  HasFea(m,F26) => Label(m,R_country)
+-0.421086  Label(a1,R_country) v !HasFea(a1,F26)
+
+// 0.206907  HasFea(m,F26) => Label(m,R_starring)
+0.206907  Label(a1,R_starring) v !HasFea(a1,F26)
+
+// 0.570572  HasFea(m,F26) => Label(m,R_channel)
+0.570572  Label(a1,R_channel) v !HasFea(a1,F26)
+
+// 0.318119  HasFea(m,F4) => Label(m,R_occupation)
+0.318119  Label(a1,R_occupation) v !HasFea(a1,F4)
+
+// 0.343997  HasFea(m,F4) => Label(m,R_country)
+0.343997  Label(a1,R_country) v !HasFea(a1,F4)
+
+// -0.332228  HasFea(m,F4) => Label(m,R_starring)
+-0.332228  Label(a1,R_starring) v !HasFea(a1,F4)
+
+// -0.458591  HasFea(m,F4) => Label(m,R_channel)
+-0.458591  Label(a1,R_channel) v !HasFea(a1,F4)
+
+// 0.0443209  HasFea(m,F10) => Label(m,R_occupation)
+0.0443209  Label(a1,R_occupation) v !HasFea(a1,F10)
+
+// -0.437929  HasFea(m,F10) => Label(m,R_country)
+-0.437929  Label(a1,R_country) v !HasFea(a1,F10)
+
+// 0.787698  HasFea(m,F10) => Label(m,R_starring)
+0.787698  Label(a1,R_starring) v !HasFea(a1,F10)
+
+// -0.440602  HasFea(m,F10) => Label(m,R_channel)
+-0.440602  Label(a1,R_channel) v !HasFea(a1,F10)
+
+// -0.324193  HasFea(m,F1) => Label(m,R_occupation)
+-0.324193  Label(a1,R_occupation) v !HasFea(a1,F1)
+
+// -0.327169  HasFea(m,F1) => Label(m,R_country)
+-0.327169  Label(a1,R_country) v !HasFea(a1,F1)
+
+// -0.141683  HasFea(m,F1) => Label(m,R_starring)
+-0.141683  Label(a1,R_starring) v !HasFea(a1,F1)
+
+// 0.80043  HasFea(m,F1) => Label(m,R_channel)
+0.80043  Label(a1,R_channel) v !HasFea(a1,F1)
+
+// -0.369864  HasFea(m,F7) => Label(m,R_occupation)
+-0.369864  Label(a1,R_occupation) v !HasFea(a1,F7)
+
+// 0.473995  HasFea(m,F7) => Label(m,R_country)
+0.473995  Label(a1,R_country) v !HasFea(a1,F7)
+
+// -0.337889  HasFea(m,F7) => Label(m,R_starring)
+-0.337889  Label(a1,R_starring) v !HasFea(a1,F7)
+
+// 0.247854  HasFea(m,F7) => Label(m,R_channel)
+0.247854  Label(a1,R_channel) v !HasFea(a1,F7)
+
+// -0.104901  HasFea(m,F27) => Label(m,R_occupation)
+-0.104901  Label(a1,R_occupation) v !HasFea(a1,F27)
+
+// -0.30072  HasFea(m,F27) => Label(m,R_country)
+-0.30072  Label(a1,R_country) v !HasFea(a1,F27)
+
+// -0.151035  HasFea(m,F27) => Label(m,R_starring)
+-0.151035  Label(a1,R_starring) v !HasFea(a1,F27)
+
+// 0.555689  HasFea(m,F27) => Label(m,R_channel)
+0.555689  Label(a1,R_channel) v !HasFea(a1,F27)
+
+// -0.173138  HasFea(m,F25) => Label(m,R_occupation)
+-0.173138  Label(a1,R_occupation) v !HasFea(a1,F25)
+
+// -0.324669  HasFea(m,F25) => Label(m,R_country)
+-0.324669  Label(a1,R_country) v !HasFea(a1,F25)
+
+// -0.0982595  HasFea(m,F25) => Label(m,R_starring)
+-0.0982595  Label(a1,R_starring) v !HasFea(a1,F25)
+
+// 0.576776  HasFea(m,F25) => Label(m,R_channel)
+0.576776  Label(a1,R_channel) v !HasFea(a1,F25)
+
+// 1.71882  Arg1HasFea(m,PS_NAME) ^ Label(m,R_occupation)
+-1.71882  !Label(a1,R_occupation) v !Arg1HasFea(a1,PS_NAME)
+
+// 0.376173  Arg1HasFea(m,PS_NAME) ^ Label(m,R_country)
+-0.376173  !Label(a1,R_country) v !Arg1HasFea(a1,PS_NAME)
+
+// -1.5081  Arg1HasFea(m,PS_NAME) ^ Label(m,R_starring)
+1.5081  !Label(a1,R_starring) v !Arg1HasFea(a1,PS_NAME)
+
+// -1.29571  Arg1HasFea(m,PS_NAME) ^ Label(m,R_channel)
+1.29571  !Label(a1,R_channel) v !Arg1HasFea(a1,PS_NAME)
+
+// -0.14467  Arg1HasFea(m,CV_OCCUPATION) ^ Label(m,R_occupation)
+0.14467  !Label(a1,R_occupation) v !Arg1HasFea(a1,CV_OCCUPATION)
+
+// -0.263048  Arg1HasFea(m,CV_OCCUPATION) ^ Label(m,R_country)
+0.263048  !Label(a1,R_country) v !Arg1HasFea(a1,CV_OCCUPATION)
+
+// -0.150712  Arg1HasFea(m,CV_OCCUPATION) ^ Label(m,R_starring)
+0.150712  !Label(a1,R_starring) v !Arg1HasFea(a1,CV_OCCUPATION)
+
+// 0.534856  Arg1HasFea(m,CV_OCCUPATION) ^ Label(m,R_channel)
+-0.534856  !Label(a1,R_channel) v !Arg1HasFea(a1,CV_OCCUPATION)
+
+// -0.607042  Arg1HasFea(m,OGG_ECONOMY) ^ Label(m,R_occupation)
+0.607042  !Label(a1,R_occupation) v !Arg1HasFea(a1,OGG_ECONOMY)
+
+// 0.514092  Arg1HasFea(m,OGG_ECONOMY) ^ Label(m,R_country)
+-0.514092  !Label(a1,R_country) v !Arg1HasFea(a1,OGG_ECONOMY)
+
+// 0.474208  Arg1HasFea(m,OGG_ECONOMY) ^ Label(m,R_starring)
+-0.474208  !Label(a1,R_starring) v !Arg1HasFea(a1,OGG_ECONOMY)
+
+// -0.510304  Arg1HasFea(m,OGG_ECONOMY) ^ Label(m,R_channel)
+0.510304  !Label(a1,R_channel) v !Arg1HasFea(a1,OGG_ECONOMY)
+
+// -0      Arg1HasFea(m,LCP_COUNTRY) ^ Label(m,R_occupation)
+0       !Label(a1,R_occupation) v !Arg1HasFea(a1,LCP_COUNTRY)
+
+// -0      Arg1HasFea(m,LCP_COUNTRY) ^ Label(m,R_country)
+0       !Label(a1,R_country) v !Arg1HasFea(a1,LCP_COUNTRY)
+
+// -0      Arg1HasFea(m,LCP_COUNTRY) ^ Label(m,R_starring)
+0       !Label(a1,R_starring) v !Arg1HasFea(a1,LCP_COUNTRY)
+
+// -0      Arg1HasFea(m,LCP_COUNTRY) ^ Label(m,R_channel)
+0       !Label(a1,R_channel) v !Arg1HasFea(a1,LCP_COUNTRY)
+
+// -0.813081  Arg1HasFea(m,AFW_DOCUMENT) ^ Label(m,R_occupation)
+0.813081  !Label(a1,R_occupation) v !Arg1HasFea(a1,AFW_DOCUMENT)
+
+// -1.10114  Arg1HasFea(m,AFW_DOCUMENT) ^ Label(m,R_country)
+1.10114  !Label(a1,R_country) v !Arg1HasFea(a1,AFW_DOCUMENT)
+
+// 1.09476  Arg1HasFea(m,AFW_DOCUMENT) ^ Label(m,R_starring)
+-1.09476  !Label(a1,R_starring) v !Arg1HasFea(a1,AFW_DOCUMENT)
+
+// 0.651629  Arg1HasFea(m,AFW_DOCUMENT) ^ Label(m,R_channel)
+-0.651629  !Label(a1,R_channel) v !Arg1HasFea(a1,AFW_DOCUMENT)
+
+// -0      Arg1HasFea(m,OGG_SPORTS) ^ Label(m,R_occupation)
+0       !Label(a1,R_occupation) v !Arg1HasFea(a1,OGG_SPORTS)
+
+// -0      Arg1HasFea(m,OGG_SPORTS) ^ Label(m,R_country)
+0       !Label(a1,R_country) v !Arg1HasFea(a1,OGG_SPORTS)
+
+// -0      Arg1HasFea(m,OGG_SPORTS) ^ Label(m,R_starring)
+0       !Label(a1,R_starring) v !Arg1HasFea(a1,OGG_SPORTS)
+
+// -0      Arg1HasFea(m,OGG_SPORTS) ^ Label(m,R_channel)
+0       !Label(a1,R_channel) v !Arg1HasFea(a1,OGG_SPORTS)
+
+// -0.0570797  Arg1HasFea(m,LCG_ISLAND) ^ Label(m,R_occupation)
+0.0570797  !Label(a1,R_occupation) v !Arg1HasFea(a1,LCG_ISLAND)
+
+// 0.145719  Arg1HasFea(m,LCG_ISLAND) ^ Label(m,R_country)
+-0.145719  !Label(a1,R_country) v !Arg1HasFea(a1,LCG_ISLAND)
+
+// -0.0646261  Arg1HasFea(m,LCG_ISLAND) ^ Label(m,R_starring)
+0.0646261  !Label(a1,R_starring) v !Arg1HasFea(a1,LCG_ISLAND)
+
+// -0.0425579  Arg1HasFea(m,LCG_ISLAND) ^ Label(m,R_channel)
+0.0425579  !Label(a1,R_channel) v !Arg1HasFea(a1,LCG_ISLAND)
+
+// -0.16558  Arg1HasFea(m,QT_ORDER) ^ Label(m,R_occupation)
+0.16558  !Label(a1,R_occupation) v !Arg1HasFea(a1,QT_ORDER)
+
+// -0.205142  Arg1HasFea(m,QT_ORDER) ^ Label(m,R_country)
+0.205142  !Label(a1,R_country) v !Arg1HasFea(a1,QT_ORDER)
+
+// 0.318894  Arg1HasFea(m,QT_ORDER) ^ Label(m,R_starring)
+-0.318894  !Label(a1,R_starring) v !Arg1HasFea(a1,QT_ORDER)
+
+// 0.0470284  Arg1HasFea(m,QT_ORDER) ^ Label(m,R_channel)
+-0.0470284  !Label(a1,R_channel) v !Arg1HasFea(a1,QT_ORDER)
+
+// -0.128799  Arg1HasFea(m,OGG_MEDIA) ^ Label(m,R_occupation)
+0.128799  !Label(a1,R_occupation) v !Arg1HasFea(a1,OGG_MEDIA)
+
+// 0.105257  Arg1HasFea(m,OGG_MEDIA) ^ Label(m,R_country)
+-0.105257  !Label(a1,R_country) v !Arg1HasFea(a1,OGG_MEDIA)
+
+// -0.0648285  Arg1HasFea(m,OGG_MEDIA) ^ Label(m,R_starring)
+0.0648285  !Label(a1,R_starring) v !Arg1HasFea(a1,OGG_MEDIA)
+
+// 0.0840908  Arg1HasFea(m,OGG_MEDIA) ^ Label(m,R_channel)
+-0.0840908  !Label(a1,R_channel) v !Arg1HasFea(a1,OGG_MEDIA)
+
+// -0.279724  Arg1HasFea(m,AF_CULTURAL_ASSET) ^ Label(m,R_occupation)
+0.279724  !Label(a1,R_occupation) v !Arg1HasFea(a1,AF_CULTURAL_ASSET)
+
+// 0.706792  Arg1HasFea(m,AF_CULTURAL_ASSET) ^ Label(m,R_country)
+-0.706792  !Label(a1,R_country) v !Arg1HasFea(a1,AF_CULTURAL_ASSET)
+
+// -0.289567  Arg1HasFea(m,AF_CULTURAL_ASSET) ^ Label(m,R_starring)
+0.289567  !Label(a1,R_starring) v !Arg1HasFea(a1,AF_CULTURAL_ASSET)
+
+// -0.168263  Arg1HasFea(m,AF_CULTURAL_ASSET) ^ Label(m,R_channel)
+0.168263  !Label(a1,R_channel) v !Arg1HasFea(a1,AF_CULTURAL_ASSET)
+
+// -0.117673  Arg1HasFea(m,LCP_PROVINCE) ^ Label(m,R_occupation)
+0.117673  !Label(a1,R_occupation) v !Arg1HasFea(a1,LCP_PROVINCE)
+
+// 0.388189  Arg1HasFea(m,LCP_PROVINCE) ^ Label(m,R_country)
+-0.388189  !Label(a1,R_country) v !Arg1HasFea(a1,LCP_PROVINCE)
+
+// -0.130488  Arg1HasFea(m,LCP_PROVINCE) ^ Label(m,R_starring)
+0.130488  !Label(a1,R_starring) v !Arg1HasFea(a1,LCP_PROVINCE)
+
+// -0.131246  Arg1HasFea(m,LCP_PROVINCE) ^ Label(m,R_channel)
+0.131246  !Label(a1,R_channel) v !Arg1HasFea(a1,LCP_PROVINCE)
+
+// -0.869635  Arg1HasFea(m,AFW_VIDEO) ^ Label(m,R_occupation)
+0.869635  !Label(a1,R_occupation) v !Arg1HasFea(a1,AFW_VIDEO)
+
+// -0.658426  Arg1HasFea(m,AFW_VIDEO) ^ Label(m,R_country)
+0.658426  !Label(a1,R_country) v !Arg1HasFea(a1,AFW_VIDEO)
+
+// 0.850064  Arg1HasFea(m,AFW_VIDEO) ^ Label(m,R_starring)
+-0.850064  !Label(a1,R_starring) v !Arg1HasFea(a1,AFW_VIDEO)
+
+// 0.279321  Arg1HasFea(m,AFW_VIDEO) ^ Label(m,R_channel)
+-0.279321  !Label(a1,R_channel) v !Arg1HasFea(a1,AFW_VIDEO)
+
+// -0.0419974  Arg1HasFea(m,LCP_CAPITALCITY) ^ Label(m,R_occupation)
+0.0419974  !Label(a1,R_occupation) v !Arg1HasFea(a1,LCP_CAPITALCITY)
+
+// 0.225476  Arg1HasFea(m,LCP_CAPITALCITY) ^ Label(m,R_country)
+-0.225476  !Label(a1,R_country) v !Arg1HasFea(a1,LCP_CAPITALCITY)
+
+// -0.0957266  Arg1HasFea(m,LCP_CAPITALCITY) ^ Label(m,R_starring)
+0.0957266  !Label(a1,R_starring) v !Arg1HasFea(a1,LCP_CAPITALCITY)
+
+// -0.110055  Arg1HasFea(m,LCP_CAPITALCITY) ^ Label(m,R_channel)
+0.110055  !Label(a1,R_channel) v !Arg1HasFea(a1,LCP_CAPITALCITY)
+
+// -0.107909  Arg1HasFea(m,DT_OTHERS) ^ Label(m,R_occupation)
+0.107909  !Label(a1,R_occupation) v !Arg1HasFea(a1,DT_OTHERS)
+
+// -0.100339  Arg1HasFea(m,DT_OTHERS) ^ Label(m,R_country)
+0.100339  !Label(a1,R_country) v !Arg1HasFea(a1,DT_OTHERS)
+
+// 0.365836  Arg1HasFea(m,DT_OTHERS) ^ Label(m,R_starring)
+-0.365836  !Label(a1,R_starring) v !Arg1HasFea(a1,DT_OTHERS)
+
+// -0.189616  Arg1HasFea(m,DT_OTHERS) ^ Label(m,R_channel)
+0.189616  !Label(a1,R_channel) v !Arg1HasFea(a1,DT_OTHERS)
+
+// -0.255242  Arg1HasFea(m,AFW_MUSIC) ^ Label(m,R_occupation)
+0.255242  !Label(a1,R_occupation) v !Arg1HasFea(a1,AFW_MUSIC)
+
+// -0.2281  Arg1HasFea(m,AFW_MUSIC) ^ Label(m,R_country)
+0.2281  !Label(a1,R_country) v !Arg1HasFea(a1,AFW_MUSIC)
+
+// -0.197818  Arg1HasFea(m,AFW_MUSIC) ^ Label(m,R_starring)
+0.197818  !Label(a1,R_starring) v !Arg1HasFea(a1,AFW_MUSIC)
+
+// 0.680808  Arg1HasFea(m,AFW_MUSIC) ^ Label(m,R_channel)
+-0.680808  !Label(a1,R_channel) v !Arg1HasFea(a1,AFW_MUSIC)
+
+// -0.158718  Arg1HasFea(m,LCP_CITY) ^ Label(m,R_occupation)
+0.158718  !Label(a1,R_occupation) v !Arg1HasFea(a1,LCP_CITY)
+
+// 0.476945  Arg1HasFea(m,LCP_CITY) ^ Label(m,R_country)
+-0.476945  !Label(a1,R_country) v !Arg1HasFea(a1,LCP_CITY)
+
+// -0.100452  Arg1HasFea(m,LCP_CITY) ^ Label(m,R_starring)
+0.100452  !Label(a1,R_starring) v !Arg1HasFea(a1,LCP_CITY)
+
+// -0.233567  Arg1HasFea(m,LCP_CITY) ^ Label(m,R_channel)
+0.233567  !Label(a1,R_channel) v !Arg1HasFea(a1,LCP_CITY)
+
+// 0.485393  Arg1HasFea(m,FD_ART) ^ Label(m,R_occupation)
+-0.485393  !Label(a1,R_occupation) v !Arg1HasFea(a1,FD_ART)
+
+// -0.129314  Arg1HasFea(m,FD_ART) ^ Label(m,R_country)
+0.129314  !Label(a1,R_country) v !Arg1HasFea(a1,FD_ART)
+
+// -0.180362  Arg1HasFea(m,FD_ART) ^ Label(m,R_starring)
+0.180362  !Label(a1,R_starring) v !Arg1HasFea(a1,FD_ART)
+
+// -0.174372  Arg1HasFea(m,FD_ART) ^ Label(m,R_channel)
+0.174372  !Label(a1,R_channel) v !Arg1HasFea(a1,FD_ART)
+
+// -0.083773  Arg1HasFea(m,OGG_EDUCATION) ^ Label(m,R_occupation)
+0.083773  !Label(a1,R_occupation) v !Arg1HasFea(a1,OGG_EDUCATION)
+
+// 0.594318  Arg1HasFea(m,OGG_EDUCATION) ^ Label(m,R_country)
+-0.594318  !Label(a1,R_country) v !Arg1HasFea(a1,OGG_EDUCATION)
+
+// -0.147678  Arg1HasFea(m,OGG_EDUCATION) ^ Label(m,R_starring)
+0.147678  !Label(a1,R_starring) v !Arg1HasFea(a1,OGG_EDUCATION)
+
+// -0.355163  Arg1HasFea(m,OGG_EDUCATION) ^ Label(m,R_channel)
+0.355163  !Label(a1,R_channel) v !Arg1HasFea(a1,OGG_EDUCATION)
+
+// -0.00868507  Arg1HasFea(m,OGG_ART) ^ Label(m,R_occupation)
+0.00868507  !Label(a1,R_occupation) v !Arg1HasFea(a1,OGG_ART)
+
+// 0.0250022  Arg1HasFea(m,OGG_ART) ^ Label(m,R_country)
+-0.0250022  !Label(a1,R_country) v !Arg1HasFea(a1,OGG_ART)
+
+// -0.0115163  Arg1HasFea(m,OGG_ART) ^ Label(m,R_starring)
+0.0115163  !Label(a1,R_starring) v !Arg1HasFea(a1,OGG_ART)
+
+// -0.00700443  Arg1HasFea(m,OGG_ART) ^ Label(m,R_channel)
+0.00700443  !Label(a1,R_channel) v !Arg1HasFea(a1,OGG_ART)
+
+// -0.0591306  Arg1HasFea(m,OGG_MEDICINE) ^ Label(m,R_occupation)
+0.0591306  !Label(a1,R_occupation) v !Arg1HasFea(a1,OGG_MEDICINE)
+
+// -0.0789802  Arg1HasFea(m,OGG_MEDICINE) ^ Label(m,R_country)
+0.0789802  !Label(a1,R_country) v !Arg1HasFea(a1,OGG_MEDICINE)
+
+// -0.0461319  Arg1HasFea(m,OGG_MEDICINE) ^ Label(m,R_starring)
+0.0461319  !Label(a1,R_starring) v !Arg1HasFea(a1,OGG_MEDICINE)
+
+// 0.18356  Arg1HasFea(m,OGG_MEDICINE) ^ Label(m,R_channel)
+-0.18356  !Label(a1,R_channel) v !Arg1HasFea(a1,OGG_MEDICINE)
+
+// -0.214869  Arg1HasFea(m,AF_TRANSPORT) ^ Label(m,R_occupation)
+0.214869  !Label(a1,R_occupation) v !Arg1HasFea(a1,AF_TRANSPORT)
+
+// 0.573653  Arg1HasFea(m,AF_TRANSPORT) ^ Label(m,R_country)
+-0.573653  !Label(a1,R_country) v !Arg1HasFea(a1,AF_TRANSPORT)
+
+// -0.163601  Arg1HasFea(m,AF_TRANSPORT) ^ Label(m,R_starring)
+0.163601  !Label(a1,R_starring) v !Arg1HasFea(a1,AF_TRANSPORT)
+
+// -0.205651  Arg1HasFea(m,AF_TRANSPORT) ^ Label(m,R_channel)
+0.205651  !Label(a1,R_channel) v !Arg1HasFea(a1,AF_TRANSPORT)
+
+// -0.0561088  Arg1HasFea(m,LC_OTHERS) ^ Label(m,R_occupation)
+0.0561088  !Label(a1,R_occupation) v !Arg1HasFea(a1,LC_OTHERS)
+
+// 0.596264  Arg1HasFea(m,LC_OTHERS) ^ Label(m,R_country)
+-0.596264  !Label(a1,R_country) v !Arg1HasFea(a1,LC_OTHERS)
+
+// -0.255421  Arg1HasFea(m,LC_OTHERS) ^ Label(m,R_starring)
+0.255421  !Label(a1,R_starring) v !Arg1HasFea(a1,LC_OTHERS)
+
+// -0.309002  Arg1HasFea(m,LC_OTHERS) ^ Label(m,R_channel)
+0.309002  !Label(a1,R_channel) v !Arg1HasFea(a1,LC_OTHERS)
+
+// -0.0639393  Arg1HasFea(m,LCP_COUNTY) ^ Label(m,R_occupation)
+0.0639393  !Label(a1,R_occupation) v !Arg1HasFea(a1,LCP_COUNTY)
+
+// 0.183036  Arg1HasFea(m,LCP_COUNTY) ^ Label(m,R_country)
+-0.183036  !Label(a1,R_country) v !Arg1HasFea(a1,LCP_COUNTY)
+
+// -0.0582259  Arg1HasFea(m,LCP_COUNTY) ^ Label(m,R_starring)
+0.0582259  !Label(a1,R_starring) v !Arg1HasFea(a1,LCP_COUNTY)
+
+// -0.0607789  Arg1HasFea(m,LCP_COUNTY) ^ Label(m,R_channel)
+0.0607789  !Label(a1,R_channel) v !Arg1HasFea(a1,LCP_COUNTY)
+
+// -0      Arg1HasFea(m,OGG_RELIGION) ^ Label(m,R_occupation)
+0       !Label(a1,R_occupation) v !Arg1HasFea(a1,OGG_RELIGION)
+
+// -0      Arg1HasFea(m,OGG_RELIGION) ^ Label(m,R_country)
+0       !Label(a1,R_country) v !Arg1HasFea(a1,OGG_RELIGION)
+
+// -0      Arg1HasFea(m,OGG_RELIGION) ^ Label(m,R_starring)
+0       !Label(a1,R_starring) v !Arg1HasFea(a1,OGG_RELIGION)
+
+// -0      Arg1HasFea(m,OGG_RELIGION) ^ Label(m,R_channel)
+0       !Label(a1,R_channel) v !Arg1HasFea(a1,OGG_RELIGION)
+
+// -0.184364  Arg1HasFea(m,OG_OTHERS) ^ Label(m,R_occupation)
+0.184364  !Label(a1,R_occupation) v !Arg1HasFea(a1,OG_OTHERS)
+
+// -0.0503061  Arg1HasFea(m,OG_OTHERS) ^ Label(m,R_country)
+0.0503061  !Label(a1,R_country) v !Arg1HasFea(a1,OG_OTHERS)
+
+// 0.262433  Arg1HasFea(m,OG_OTHERS) ^ Label(m,R_starring)
+-0.262433  !Label(a1,R_starring) v !Arg1HasFea(a1,OG_OTHERS)
+
+// -0.0291203  Arg1HasFea(m,OG_OTHERS) ^ Label(m,R_channel)
+0.0291203  !Label(a1,R_channel) v !Arg1HasFea(a1,OG_OTHERS)
+
+// -1.01266  Arg2HasFea(m,PS_NAME) ^ Label(m,R_occupation)
+1.01266  !Label(a1,R_occupation) v !Arg2HasFea(a1,PS_NAME)
+
+// -0.991224  Arg2HasFea(m,PS_NAME) ^ Label(m,R_country)
+0.991224  !Label(a1,R_country) v !Arg2HasFea(a1,PS_NAME)
+
+// 2.89984  Arg2HasFea(m,PS_NAME) ^ Label(m,R_starring)
+-2.89984  !Label(a1,R_starring) v !Arg2HasFea(a1,PS_NAME)
+
+// -1.34253  Arg2HasFea(m,PS_NAME) ^ Label(m,R_channel)
+1.34253  !Label(a1,R_channel) v !Arg2HasFea(a1,PS_NAME)
+
+// 2.31801  Arg2HasFea(m,CV_OCCUPATION) ^ Label(m,R_occupation)
+-2.31801  !Label(a1,R_occupation) v !Arg2HasFea(a1,CV_OCCUPATION)
+
+// -1.03475  Arg2HasFea(m,CV_OCCUPATION) ^ Label(m,R_country)
+1.03475  !Label(a1,R_country) v !Arg2HasFea(a1,CV_OCCUPATION)
+
+// -0.87931  Arg2HasFea(m,CV_OCCUPATION) ^ Label(m,R_starring)
+0.87931  !Label(a1,R_starring) v !Arg2HasFea(a1,CV_OCCUPATION)
+
+// -0.899744  Arg2HasFea(m,CV_OCCUPATION) ^ Label(m,R_channel)
+0.899744  !Label(a1,R_channel) v !Arg2HasFea(a1,CV_OCCUPATION)
+
+// 0.944509  Arg2HasFea(m,OGG_ECONOMY) ^ Label(m,R_occupation)
+-0.944509  !Label(a1,R_occupation) v !Arg2HasFea(a1,OGG_ECONOMY)
+
+// -0.62384  Arg2HasFea(m,OGG_ECONOMY) ^ Label(m,R_country)
+0.62384  !Label(a1,R_country) v !Arg2HasFea(a1,OGG_ECONOMY)
+
+// -0.10171  Arg2HasFea(m,OGG_ECONOMY) ^ Label(m,R_starring)
+0.10171  !Label(a1,R_starring) v !Arg2HasFea(a1,OGG_ECONOMY)
+
+// -0.209418  Arg2HasFea(m,OGG_ECONOMY) ^ Label(m,R_channel)
+0.209418  !Label(a1,R_channel) v !Arg2HasFea(a1,OGG_ECONOMY)
+
+// -1.87672  Arg2HasFea(m,LCP_COUNTRY) ^ Label(m,R_occupation)
+1.87672  !Label(a1,R_occupation) v !Arg2HasFea(a1,LCP_COUNTRY)
+
+// 2.93087  Arg2HasFea(m,LCP_COUNTRY) ^ Label(m,R_country)
+-2.93087  !Label(a1,R_country) v !Arg2HasFea(a1,LCP_COUNTRY)
+
+// -1.50603  Arg2HasFea(m,LCP_COUNTRY) ^ Label(m,R_starring)
+1.50603  !Label(a1,R_starring) v !Arg2HasFea(a1,LCP_COUNTRY)
+
+// -1.72045  Arg2HasFea(m,LCP_COUNTRY) ^ Label(m,R_channel)
+1.72045  !Label(a1,R_channel) v !Arg2HasFea(a1,LCP_COUNTRY)
+
+// -0      Arg2HasFea(m,AFW_DOCUMENT) ^ Label(m,R_occupation)
+0       !Label(a1,R_occupation) v !Arg2HasFea(a1,AFW_DOCUMENT)
+
+// -0      Arg2HasFea(m,AFW_DOCUMENT) ^ Label(m,R_country)
+0       !Label(a1,R_country) v !Arg2HasFea(a1,AFW_DOCUMENT)
+
+// -0      Arg2HasFea(m,AFW_DOCUMENT) ^ Label(m,R_starring)
+0       !Label(a1,R_starring) v !Arg2HasFea(a1,AFW_DOCUMENT)
+
+// -0      Arg2HasFea(m,AFW_DOCUMENT) ^ Label(m,R_channel)
+0       !Label(a1,R_channel) v !Arg2HasFea(a1,AFW_DOCUMENT)
+
+// -0.432178  Arg2HasFea(m,OGG_SPORTS) ^ Label(m,R_occupation)
+0.432178  !Label(a1,R_occupation) v !Arg2HasFea(a1,OGG_SPORTS)
+
+// -0.555776  Arg2HasFea(m,OGG_SPORTS) ^ Label(m,R_country)
+0.555776  !Label(a1,R_country) v !Arg2HasFea(a1,OGG_SPORTS)
+
+// 1.67441  Arg2HasFea(m,OGG_SPORTS) ^ Label(m,R_starring)
+-1.67441  !Label(a1,R_starring) v !Arg2HasFea(a1,OGG_SPORTS)
+
+// -0.694344  Arg2HasFea(m,OGG_SPORTS) ^ Label(m,R_channel)
+0.694344  !Label(a1,R_channel) v !Arg2HasFea(a1,OGG_SPORTS)
+
+// -0      Arg2HasFea(m,LCG_ISLAND) ^ Label(m,R_occupation)
+0       !Label(a1,R_occupation) v !Arg2HasFea(a1,LCG_ISLAND)
+
+// -0      Arg2HasFea(m,LCG_ISLAND) ^ Label(m,R_country)
+0       !Label(a1,R_country) v !Arg2HasFea(a1,LCG_ISLAND)
+
+// -0      Arg2HasFea(m,LCG_ISLAND) ^ Label(m,R_starring)
+0       !Label(a1,R_starring) v !Arg2HasFea(a1,LCG_ISLAND)
+
+// -0      Arg2HasFea(m,LCG_ISLAND) ^ Label(m,R_channel)
+0       !Label(a1,R_channel) v !Arg2HasFea(a1,LCG_ISLAND)
+
+// -0      Arg2HasFea(m,QT_ORDER) ^ Label(m,R_occupation)
+0       !Label(a1,R_occupation) v !Arg2HasFea(a1,QT_ORDER)
+
+// -0      Arg2HasFea(m,QT_ORDER) ^ Label(m,R_country)
+0       !Label(a1,R_country) v !Arg2HasFea(a1,QT_ORDER)
+
+// -0      Arg2HasFea(m,QT_ORDER) ^ Label(m,R_starring)
+0       !Label(a1,R_starring) v !Arg2HasFea(a1,QT_ORDER)
+
+// -0      Arg2HasFea(m,QT_ORDER) ^ Label(m,R_channel)
+0       !Label(a1,R_channel) v !Arg2HasFea(a1,QT_ORDER)
+
+// -1.25891  Arg2HasFea(m,OGG_MEDIA) ^ Label(m,R_occupation)
+1.25891  !Label(a1,R_occupation) v !Arg2HasFea(a1,OGG_MEDIA)
+
+// -1.29158  Arg2HasFea(m,OGG_MEDIA) ^ Label(m,R_country)
+1.29158  !Label(a1,R_country) v !Arg2HasFea(a1,OGG_MEDIA)
+
+// -1.30869  Arg2HasFea(m,OGG_MEDIA) ^ Label(m,R_starring)
+1.30869  !Label(a1,R_starring) v !Arg2HasFea(a1,OGG_MEDIA)
+
+// 2.52594  Arg2HasFea(m,OGG_MEDIA) ^ Label(m,R_channel)
+-2.52594  !Label(a1,R_channel) v !Arg2HasFea(a1,OGG_MEDIA)
+
+// -0      Arg2HasFea(m,AF_CULTURAL_ASSET) ^ Label(m,R_occupation)
+0       !Label(a1,R_occupation) v !Arg2HasFea(a1,AF_CULTURAL_ASSET)
+
+// -0      Arg2HasFea(m,AF_CULTURAL_ASSET) ^ Label(m,R_country)
+0       !Label(a1,R_country) v !Arg2HasFea(a1,AF_CULTURAL_ASSET)
+
+// -0      Arg2HasFea(m,AF_CULTURAL_ASSET) ^ Label(m,R_starring)
+0       !Label(a1,R_starring) v !Arg2HasFea(a1,AF_CULTURAL_ASSET)
+
+// -0      Arg2HasFea(m,AF_CULTURAL_ASSET) ^ Label(m,R_channel)
+0       !Label(a1,R_channel) v !Arg2HasFea(a1,AF_CULTURAL_ASSET)
+
+// -0.329101  Arg2HasFea(m,LCP_PROVINCE) ^ Label(m,R_occupation)
+0.329101  !Label(a1,R_occupation) v !Arg2HasFea(a1,LCP_PROVINCE)
+
+// 0.805885  Arg2HasFea(m,LCP_PROVINCE) ^ Label(m,R_country)
+-0.805885  !Label(a1,R_country) v !Arg2HasFea(a1,LCP_PROVINCE)
+
+// -0.321907  Arg2HasFea(m,LCP_PROVINCE) ^ Label(m,R_starring)
+0.321907  !Label(a1,R_starring) v !Arg2HasFea(a1,LCP_PROVINCE)
+
+// -0.208454  Arg2HasFea(m,LCP_PROVINCE) ^ Label(m,R_channel)
+0.208454  !Label(a1,R_channel) v !Arg2HasFea(a1,LCP_PROVINCE)
+
+// -0      Arg2HasFea(m,AFW_VIDEO) ^ Label(m,R_occupation)
+0       !Label(a1,R_occupation) v !Arg2HasFea(a1,AFW_VIDEO)
+
+// -0      Arg2HasFea(m,AFW_VIDEO) ^ Label(m,R_country)
+0       !Label(a1,R_country) v !Arg2HasFea(a1,AFW_VIDEO)
+
+// -0      Arg2HasFea(m,AFW_VIDEO) ^ Label(m,R_starring)
+0       !Label(a1,R_starring) v !Arg2HasFea(a1,AFW_VIDEO)
+
+// -0      Arg2HasFea(m,AFW_VIDEO) ^ Label(m,R_channel)
+0       !Label(a1,R_channel) v !Arg2HasFea(a1,AFW_VIDEO)
+
+// -0      Arg2HasFea(m,LCP_CAPITALCITY) ^ Label(m,R_occupation)
+0       !Label(a1,R_occupation) v !Arg2HasFea(a1,LCP_CAPITALCITY)
+
+// -0      Arg2HasFea(m,LCP_CAPITALCITY) ^ Label(m,R_country)
+0       !Label(a1,R_country) v !Arg2HasFea(a1,LCP_CAPITALCITY)
+
+// -0      Arg2HasFea(m,LCP_CAPITALCITY) ^ Label(m,R_starring)
+0       !Label(a1,R_starring) v !Arg2HasFea(a1,LCP_CAPITALCITY)
+
+// -0      Arg2HasFea(m,LCP_CAPITALCITY) ^ Label(m,R_channel)
+0       !Label(a1,R_channel) v !Arg2HasFea(a1,LCP_CAPITALCITY)
+
+// -0      Arg2HasFea(m,DT_OTHERS) ^ Label(m,R_occupation)
+0       !Label(a1,R_occupation) v !Arg2HasFea(a1,DT_OTHERS)
+
+// -0      Arg2HasFea(m,DT_OTHERS) ^ Label(m,R_country)
+0       !Label(a1,R_country) v !Arg2HasFea(a1,DT_OTHERS)
+
+// -0      Arg2HasFea(m,DT_OTHERS) ^ Label(m,R_starring)
+0       !Label(a1,R_starring) v !Arg2HasFea(a1,DT_OTHERS)
+
+// -0      Arg2HasFea(m,DT_OTHERS) ^ Label(m,R_channel)
+0       !Label(a1,R_channel) v !Arg2HasFea(a1,DT_OTHERS)
+
+// -0      Arg2HasFea(m,AFW_MUSIC) ^ Label(m,R_occupation)
+0       !Label(a1,R_occupation) v !Arg2HasFea(a1,AFW_MUSIC)
+
+// -0      Arg2HasFea(m,AFW_MUSIC) ^ Label(m,R_country)
+0       !Label(a1,R_country) v !Arg2HasFea(a1,AFW_MUSIC)
+
+// -0      Arg2HasFea(m,AFW_MUSIC) ^ Label(m,R_starring)
+0       !Label(a1,R_starring) v !Arg2HasFea(a1,AFW_MUSIC)
+
+// -0      Arg2HasFea(m,AFW_MUSIC) ^ Label(m,R_channel)
+0       !Label(a1,R_channel) v !Arg2HasFea(a1,AFW_MUSIC)
+
+// -0.0588511  Arg2HasFea(m,LCP_CITY) ^ Label(m,R_occupation)
+0.0588511  !Label(a1,R_occupation) v !Arg2HasFea(a1,LCP_CITY)
+
+// 0.15839  Arg2HasFea(m,LCP_CITY) ^ Label(m,R_country)
+-0.15839  !Label(a1,R_country) v !Arg2HasFea(a1,LCP_CITY)
+
+// -0.0397588  Arg2HasFea(m,LCP_CITY) ^ Label(m,R_starring)
+0.0397588  !Label(a1,R_starring) v !Arg2HasFea(a1,LCP_CITY)
+
+// -0.0596583  Arg2HasFea(m,LCP_CITY) ^ Label(m,R_channel)
+0.0596583  !Label(a1,R_channel) v !Arg2HasFea(a1,LCP_CITY)
+
+// -0      Arg2HasFea(m,FD_ART) ^ Label(m,R_occupation)
+0       !Label(a1,R_occupation) v !Arg2HasFea(a1,FD_ART)
+
+// -0      Arg2HasFea(m,FD_ART) ^ Label(m,R_country)
+0       !Label(a1,R_country) v !Arg2HasFea(a1,FD_ART)
+
+// -0      Arg2HasFea(m,FD_ART) ^ Label(m,R_starring)
+0       !Label(a1,R_starring) v !Arg2HasFea(a1,FD_ART)
+
+// -0      Arg2HasFea(m,FD_ART) ^ Label(m,R_channel)
+0       !Label(a1,R_channel) v !Arg2HasFea(a1,FD_ART)
+
+// -0.299625  Arg2HasFea(m,OGG_EDUCATION) ^ Label(m,R_occupation)
+0.299625  !Label(a1,R_occupation) v !Arg2HasFea(a1,OGG_EDUCATION)
+
+// -0.291197  Arg2HasFea(m,OGG_EDUCATION) ^ Label(m,R_country)
+0.291197  !Label(a1,R_country) v !Arg2HasFea(a1,OGG_EDUCATION)
+
+// -0.0904537  Arg2HasFea(m,OGG_EDUCATION) ^ Label(m,R_starring)
+0.0904537  !Label(a1,R_starring) v !Arg2HasFea(a1,OGG_EDUCATION)
+
+// 0.68199  Arg2HasFea(m,OGG_EDUCATION) ^ Label(m,R_channel)
+-0.68199  !Label(a1,R_channel) v !Arg2HasFea(a1,OGG_EDUCATION)
+
+// -0      Arg2HasFea(m,OGG_ART) ^ Label(m,R_occupation)
+0       !Label(a1,R_occupation) v !Arg2HasFea(a1,OGG_ART)
+
+// -0      Arg2HasFea(m,OGG_ART) ^ Label(m,R_country)
+0       !Label(a1,R_country) v !Arg2HasFea(a1,OGG_ART)
+
+// -0      Arg2HasFea(m,OGG_ART) ^ Label(m,R_starring)
+0       !Label(a1,R_starring) v !Arg2HasFea(a1,OGG_ART)
+
+// -0      Arg2HasFea(m,OGG_ART) ^ Label(m,R_channel)
+0       !Label(a1,R_channel) v !Arg2HasFea(a1,OGG_ART)
+
+// -0      Arg2HasFea(m,OGG_MEDICINE) ^ Label(m,R_occupation)
+0       !Label(a1,R_occupation) v !Arg2HasFea(a1,OGG_MEDICINE)
+
+// -0      Arg2HasFea(m,OGG_MEDICINE) ^ Label(m,R_country)
+0       !Label(a1,R_country) v !Arg2HasFea(a1,OGG_MEDICINE)
+
+// -0      Arg2HasFea(m,OGG_MEDICINE) ^ Label(m,R_starring)
+0       !Label(a1,R_starring) v !Arg2HasFea(a1,OGG_MEDICINE)
+
+// -0      Arg2HasFea(m,OGG_MEDICINE) ^ Label(m,R_channel)
+0       !Label(a1,R_channel) v !Arg2HasFea(a1,OGG_MEDICINE)
+
+// -0      Arg2HasFea(m,AF_TRANSPORT) ^ Label(m,R_occupation)
+0       !Label(a1,R_occupation) v !Arg2HasFea(a1,AF_TRANSPORT)
+
+// -0      Arg2HasFea(m,AF_TRANSPORT) ^ Label(m,R_country)
+0       !Label(a1,R_country) v !Arg2HasFea(a1,AF_TRANSPORT)
+
+// -0      Arg2HasFea(m,AF_TRANSPORT) ^ Label(m,R_starring)
+0       !Label(a1,R_starring) v !Arg2HasFea(a1,AF_TRANSPORT)
+
+// -0      Arg2HasFea(m,AF_TRANSPORT) ^ Label(m,R_channel)
+0       !Label(a1,R_channel) v !Arg2HasFea(a1,AF_TRANSPORT)
+
+// -0      Arg2HasFea(m,LC_OTHERS) ^ Label(m,R_occupation)
+0       !Label(a1,R_occupation) v !Arg2HasFea(a1,LC_OTHERS)
+
+// -0      Arg2HasFea(m,LC_OTHERS) ^ Label(m,R_country)
+0       !Label(a1,R_country) v !Arg2HasFea(a1,LC_OTHERS)
+
+// -0      Arg2HasFea(m,LC_OTHERS) ^ Label(m,R_starring)
+0       !Label(a1,R_starring) v !Arg2HasFea(a1,LC_OTHERS)
+
+// -0      Arg2HasFea(m,LC_OTHERS) ^ Label(m,R_channel)
+0       !Label(a1,R_channel) v !Arg2HasFea(a1,LC_OTHERS)
+
+// -0      Arg2HasFea(m,LCP_COUNTY) ^ Label(m,R_occupation)
+0       !Label(a1,R_occupation) v !Arg2HasFea(a1,LCP_COUNTY)
+
+// -0      Arg2HasFea(m,LCP_COUNTY) ^ Label(m,R_country)
+0       !Label(a1,R_country) v !Arg2HasFea(a1,LCP_COUNTY)
+
+// -0      Arg2HasFea(m,LCP_COUNTY) ^ Label(m,R_starring)
+0       !Label(a1,R_starring) v !Arg2HasFea(a1,LCP_COUNTY)
+
+// -0      Arg2HasFea(m,LCP_COUNTY) ^ Label(m,R_channel)
+0       !Label(a1,R_channel) v !Arg2HasFea(a1,LCP_COUNTY)
+
+// 1.1513  Arg2HasFea(m,OGG_RELIGION) ^ Label(m,R_occupation)
+-1.1513  !Label(a1,R_occupation) v !Arg2HasFea(a1,OGG_RELIGION)
+
+// -0.548788  Arg2HasFea(m,OGG_RELIGION) ^ Label(m,R_country)
+0.548788  !Label(a1,R_country) v !Arg2HasFea(a1,OGG_RELIGION)
+
+// -0.348059  Arg2HasFea(m,OGG_RELIGION) ^ Label(m,R_starring)
+0.348059  !Label(a1,R_starring) v !Arg2HasFea(a1,OGG_RELIGION)
+
+// -0.327691  Arg2HasFea(m,OGG_RELIGION) ^ Label(m,R_channel)
+0.327691  !Label(a1,R_channel) v !Arg2HasFea(a1,OGG_RELIGION)
+
+// -0      Arg2HasFea(m,OG_OTHERS) ^ Label(m,R_occupation)
+0       !Label(a1,R_occupation) v !Arg2HasFea(a1,OG_OTHERS)
+
+// -0      Arg2HasFea(m,OG_OTHERS) ^ Label(m,R_country)
+0       !Label(a1,R_country) v !Arg2HasFea(a1,OG_OTHERS)
+
+// -0      Arg2HasFea(m,OG_OTHERS) ^ Label(m,R_starring)
+0       !Label(a1,R_starring) v !Arg2HasFea(a1,OG_OTHERS)
+
+// -0      Arg2HasFea(m,OG_OTHERS) ^ Label(m,R_channel)
+0       !Label(a1,R_channel) v !Arg2HasFea(a1,OG_OTHERS)
+
+// Label(m,r) ^ Mention(m,p) => HasRel(p,r).
+!Label(a1,a2) v HasRel(a3,a2) v !Mention(a1,a3).
+
+// -0.604705  HasRel(p,R_occupation) ^ HasRel(p,R_occupation)
+0.604705  !HasRel(a1,R_occupation) v !HasRel(a1,R_occupation)
+
+// -1.09637  HasRel(p,R_occupation) ^ HasRel(p,R_country)
+1.09637  !HasRel(a1,R_occupation) v !HasRel(a1,R_country)
+
+// -0.867766  HasRel(p,R_occupation) ^ HasRel(p,R_starring)
+0.867766  !HasRel(a1,R_occupation) v !HasRel(a1,R_starring)
+
+// -0.967118  HasRel(p,R_occupation) ^ HasRel(p,R_channel)
+0.967118  !HasRel(a1,R_occupation) v !HasRel(a1,R_channel)
+
+// -1.09637  HasRel(p,R_country) ^ HasRel(p,R_occupation)
+1.09637  !HasRel(a1,R_occupation) v !HasRel(a1,R_country)
+
+// -0.333531  HasRel(p,R_country) ^ HasRel(p,R_country)
+0.333531  !HasRel(a1,R_country) v !HasRel(a1,R_country)
+
+// -0.991872  HasRel(p,R_country) ^ HasRel(p,R_starring)
+0.991872  !HasRel(a1,R_country) v !HasRel(a1,R_starring)
+
+// -1.15744  HasRel(p,R_country) ^ HasRel(p,R_channel)
+1.15744  !HasRel(a1,R_country) v !HasRel(a1,R_channel)
+
+// -0.867766  HasRel(p,R_starring) ^ HasRel(p,R_occupation)
+0.867766  !HasRel(a1,R_occupation) v !HasRel(a1,R_starring)
+
+// -0.991872  HasRel(p,R_starring) ^ HasRel(p,R_country)
+0.991872  !HasRel(a1,R_country) v !HasRel(a1,R_starring)
+
+// -0.89976  HasRel(p,R_starring) ^ HasRel(p,R_starring)
+0.89976  !HasRel(a1,R_starring) v !HasRel(a1,R_starring)
+
+// -0.918406  HasRel(p,R_starring) ^ HasRel(p,R_channel)
+0.918406  !HasRel(a1,R_starring) v !HasRel(a1,R_channel)
+
+// -0.967118  HasRel(p,R_channel) ^ HasRel(p,R_occupation)
+0.967118  !HasRel(a1,R_occupation) v !HasRel(a1,R_channel)
+
+// -1.15744  HasRel(p,R_channel) ^ HasRel(p,R_country)
+1.15744  !HasRel(a1,R_country) v !HasRel(a1,R_channel)
+
+// -0.918406  HasRel(p,R_channel) ^ HasRel(p,R_starring)
+0.918406  !HasRel(a1,R_starring) v !HasRel(a1,R_channel)
+
+// -0.800212  HasRel(p,R_channel) ^ HasRel(p,R_channel)
+0.800212  !HasRel(a1,R_channel) v !HasRel(a1,R_channel)
+
+// 0.42288  Similar(m1,m2) ^ Label(m1,r) => Label(m2,r)
+0.42288  Label(a1,a2) v !Label(a3,a2) v !Similar(a3,a1)
+
+// 0       Label(a1,a2!)
+0       Label(a1,a2)
+
+// -1.2141  HasRel(a1,a2)
+-1.2141  HasRel(a1,a2)
+
+// 0       Mention(a1,a2)
+0       Mention(a1,a2)
+
+// 0       HasFea(a1,a2)
+0       HasFea(a1,a2)
+
+// 0       Arg1HasFea(a1,a2)
+0       Arg1HasFea(a1,a2)
+
+// 0       Arg2HasFea(a1,a2)
+0       Arg2HasFea(a1,a2)
+
+// 0       Similar(a1,a2)
+0       Similar(a1,a2)
+
