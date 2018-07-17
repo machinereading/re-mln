@@ -28,7 +28,7 @@ data_path = './data/'
 alchemy_path = '/home/user0/alchemy/bin/'
 ```
 
-### Location of data file
+### Location of data files
 - Training file : `./data/train_data`
 - Test file : `./data/test_data`
 
@@ -41,7 +41,7 @@ python3 train.py
 ```
 python3 test.py
 ```
-After test script is run, you can check result on `./data/prec_recall_per_prop.txt`
+After test script is run, you can check the result on `./data/prec_recall_per_prop.txt`
 
 ## Licenses
 * `CC BY-NC-SA` [Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/2.0/)
@@ -54,8 +54,7 @@ Kijong Han `han0ah@kaist.ac.kr`
 [Machine Reading Lab](http://mrlab.kaist.ac.kr/) @ KAIST
 
 ## Citation
-It is conditionally accepted on ISWC 2018 Posters and Demo.
-Bibtext information will be uploaded soon.
+-
 
 ## Acknowledgement
 This work was supported by Institute for Information & communications Technology Promotion(IITP) grant funded by the Korea government(MSIT) (2013-0-00109, WiseKB: Big data based self-evolving knowledge base and reasoning platform)
