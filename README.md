@@ -54,7 +54,7 @@ Kijong Han `han0ah@kaist.ac.kr`
 [Machine Reading Lab](http://mrlab.kaist.ac.kr/) @ KAIST
 
 ## Citation
--
+- Kijong Han, Sangha Nam, Younggyun Hahm, Jiseong Kim, Jin-Dong Kim, Key-Sun Choi, "Analysis of Distant Supervision for Relation Extraction Dataset", The 17th International Semantic Web Conference (ISWC 2018), Posters and Demonstrations, 2018. 
 
 ## Acknowledgement
 This work was supported by Institute for Information & communications Technology Promotion(IITP) grant funded by the Korea government(MSIT) (2013-0-00109, WiseKB: Big data based self-evolving knowledge base and reasoning platform)
